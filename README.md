@@ -1,2 +1,2 @@
 # Divisibility-transformer
-A transformer implementation for checking if an integer is divisible by P, where P is another integer. It works well for small values of P (e.g. P=3 or P=5) but stops working when P is large. Without scratchpad it just does random guessing.
+A program that checks if an integer is divisible by P, where P is another (fixed, small) integer. This is a transformer implementation which works well for small values of P (e.g. P=3 or P=5), and less so for large values of P. It has a scratchpad (without the scratchpad it doesn't learn the division rule).
